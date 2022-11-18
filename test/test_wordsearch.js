@@ -84,9 +84,4 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
-  it("should return undefined if the matrix is an empty array", function() {
-    const result = wordSearch([], 'SEINFELD');
-
-    assert.isUndefined(result);
-  });
 });
